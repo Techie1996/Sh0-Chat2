@@ -4,7 +4,11 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
+<<<<<<< HEAD
     "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+=======
+      "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+>>>>>>> 66fb7765aa593bbfd701d3b26456bdc8bbcff760
   },
   "author": "Govinda Yadav",
   "license": "ISC",
