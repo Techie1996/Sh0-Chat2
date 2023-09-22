@@ -4,12 +4,13 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-      "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
-    },
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+  },
   "author": "Govinda Yadav",
   "license": "ISC",
   "description": "we gonna rule the world",
   "dependencies": {
+    "@babel/core": "^7.22.20",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.3",
